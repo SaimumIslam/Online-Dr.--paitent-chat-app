@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "820576573162",
+    "firebase_url": "https://apoinment-5fe4f.firebaseio.com",
+    "project_id": "apoinment-5fe4f",
+    "storage_bucket": "apoinment-5fe4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820576573162:android:772f4496525922fe",
+        "android_client_info": {
+          "package_name": "com.example.foysal.apoinment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820576573162-raf3g4gvgdj9smq12f7hcb6dsvuaq8pv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foysal.apoinment",
+            "certificate_hash": "30296a80830496e7c9c2b2238f99e469c7c578a9"
+          }
+        },
+        {
+          "client_id": "820576573162-33av2smigmcoqkpts8k5fvhktqhgj6kn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx_be_0GVHwm62iVQCjJPVcQn1BuLBHvg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820576573162-33av2smigmcoqkpts8k5fvhktqhgj6kn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

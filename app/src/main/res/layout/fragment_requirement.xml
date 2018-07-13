@@ -1,0 +1,257 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.foysal.hypertension.RequirementFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:paddingBottom="20dp"
+                android:text="paitent will fill up this" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:text="* Bp-1:" />
+                <EditText
+                    android:id="@+id/bp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Systolic"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:text="/" />
+                <EditText
+                    android:id="@+id/bp12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:hint="Diastolic"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:text=" pulse :" />
+                <EditText
+                    android:id="@+id/pulse1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="rate"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:text="* Bp-2:" />
+                <EditText
+                    android:id="@+id/bp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Systolic"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:text="/" />
+                <EditText
+                    android:id="@+id/bp22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:hint="Diastolic"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:text=" pulse :" />
+                <EditText
+                    android:id="@+id/pulse2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="rate"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:text="  Bp-3:" />
+                <EditText
+                    android:id="@+id/bp3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Systolic"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:text="/" />
+                <EditText
+                    android:id="@+id/bp32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:hint="Diastolic"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:text=" pulse :" />
+                <EditText
+                    android:id="@+id/pulse3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:hint="rate"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+
+            </LinearLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/sugar"
+                    android:hint="sugar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <fr.ganfra.materialspinner.MaterialSpinner
+                android:id="@+id/investigate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                app:ms_arrowColor="#000000"
+                app:ms_arrowSize="16dp"
+                app:ms_floatingLabelText="Your Agreement"
+                app:ms_hint="Investigation"
+                app:ms_multiline="true">
+            </fr.ganfra.materialspinner.MaterialSpinner>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/cxa"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Cxatire"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+
+                <EditText
+                    android:id="@+id/hba"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="H.B.A.1c"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+                <EditText
+                    android:id="@+id/urine"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Urine protein"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+                <EditText
+                    android:id="@+id/col"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Total cholestrol"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

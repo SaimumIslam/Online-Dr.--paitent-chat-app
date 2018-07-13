@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="gender">Gender</string>
+    <string-array name="gender_arrays">
+        <item></item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+   
+    <string name="htn">Do you have Hypertension?</string>
+    <string-array name="htn_arrays">
+        <item></item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Not Known</item>
+
+    </string-array>
+
+    <string name="htm">Year of taking hypertension medicine</string>
+
+    <string-array name="htm_arrays">
+        <item></item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Not Known</item>
+
+    </string-array>
+
+    <string name="dia">Do You have Diabetes ?</string>
+
+    <string-array name="dia_arrays">
+
+        <item></item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Not Known</item>
+    </string-array>
+
+    //year of diabetes
+
+    <string name="chol">Do you have high cholesterol problem ?</string>
+
+    <string-array name="chol_arrays">
+        <item></item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Not Known</item>
+    </string-array>
+
+    //year of cholesterol
+
+    //smoke
+    <string name="sm">Do you smoke ?</string>
+
+    <string-array name="sm_arrays">
+        <item></item>
+        <item>Yes</item>
+        <item>Ex Smoker</item>
+        <item>No</item>
+
+    </string-array>
+
+    //family history
+    <string name="fh">Family History Status</string>
+
+    <string-array name="fh_arrays">
+        <item></item>
+        <item>Yes</item>
+        <item>No</item>
+
+    </string-array>
+
+    //chestpain
+    <string name="pain">Do you have chest pain?</string>
+
+    <string-array name="pain_arrays">
+        <item></item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+</resources>
